@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+/* HEADER */
+
+header{
+    background-image: url('images/app-background.jpg');
+    background-size: cover;
+    height: 167px;
+}
+
+.head-div{
+    height: 167px;
+    margin: 0 0 0 46px;
+    display: flex;
+    align-items: center;
+}
+
+/* TYPOGRAPHY */
+
+.primary-text{
+    margin: 0;
+    padding: 0;
+
+    color: #ffff;
+}
+
+.paragraph{
+    color: #8B8B8B;
+}
+
+/* HR LINES */
+
+hr{
+    background-color: #D2D2D2;
+    border: 1px solid #D2D2D2;
+}
+
+.order-modal-hr{
+    background-color: black;
+    border: 1px solid black;
+}
+
+/* MENU ITEMS */
+
+.items {
+    display: flex;
+    width: 508px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons{
+    height: 89px;
+    width: 70px;
+}
+
+/* MENU ITEMS BUTTONS */
+
+.add{
+    margin-top: 10px;
+    margin-left: auto;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    color: #3C3C3C;
+    border: 1px solid #DEDEDE;
+}
+
+
+/* ORDER MODAL */
+.order-section, 
+.pay-modal{
+    display: none;
+}
+
+.order-modal{
+    text-align: center;
+}
+
+.li-modal{
+    display: block;
+    align-items: center;
+}
+
+.li-modal-price{
+    margin-left: auto;
+}
+
+.list-orders{
+    display: flex;
+}
+
+.remove-btn-modal{
+    border: none;
+    height: 22px;
+    width: 77px;
+    margin-left: 13px;
+    color: #bbbbbb;
+    align-items: center;
+}
+
+.pay-modal{
+    display: flex;
+}
+
+.complete-order-btn{
+    background-color: #16DB99;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 60px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Payment form */
+
+.modal-inner{
+    display: none;
+}
+
+#modal-inner{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 525px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input{
+    width: 500px;
+    height: 45px;
+    margin: 10px;
+    color: #8B8B8B;
+}
+
+.modal-btn{
+    background-color: #16DB99;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 508px;
+    height: 45px;
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.final-msg{
+    display: none;
+}
+
+.finish-msg{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 100px;
+
+    color: #065F46;
+    background-color: #ECFDF5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks-msg{
+    align-items: center;
+}
